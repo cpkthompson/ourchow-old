@@ -213,6 +213,5 @@ if ENVIRONMENT != 'local':
 
 USER_AGENTS_CACHE = None
 
-SECRET_KEY = config('SECRET_KEY', default='SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False)
