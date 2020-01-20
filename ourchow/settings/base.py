@@ -212,3 +212,7 @@ if ENVIRONMENT != 'local':
     X_FRAME_OPTIONS = 'DENY'
 
 USER_AGENTS_CACHE = None
+
+SECRET_KEY = config('SECRET_KEY', default='SECRET_KEY')
+
+DEBUG = config('DEBUG', default=False)
